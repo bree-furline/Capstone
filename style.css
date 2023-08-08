@@ -1,0 +1,230 @@
+* {
+    font-family: 'Playfair Display', serif;
+  }
+  h1 {
+    font-size: 60px; 
+  }
+  p {
+    font-size: 20px; 
+  }
+  body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .header {
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: -60px; 
+    margin-bottom: -500px;
+  }
+  .navigation ul li {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    color: white;
+  }
+  #title {
+    margin-left: -100px;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-size: 75px;  
+    color: white; 
+  }
+  #at {
+    margin-left: -1450px;
+    margin-top: -40px; 
+    display: block;
+    text-align: center;
+    font-size: 18px; 
+    padding-bottom: 15px; 
+    color: white; 
+  }
+  .main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.477), rgba(0,0,0,0)), url(hopecenter.jpeg);
+    width: 100%;
+    height: 100vh;  
+    opacity: 100%;
+    text-align: center;
+    float: center;   
+  }
+  .main p, h1 {
+    color: white;
+    padding: 10px;   
+  }
+  .main h1{
+      margin-top: 500px;
+  }
+  #donate {
+    box-sizing: border-box;
+    border: 1px solid black; 
+    border-radius: 45%;
+    padding: 20px; 
+    font-size: 20px; 
+    background-image: url(gradiant.jpeg);
+    margin: 20px; 
+  }
+  #donate:hover {
+    border: 4px solid white; 
+    transition: 0.2s; 
+    color: white; 
+  }
+  .journey{
+    background-color:rgb(159, 239, 174);
+    margin-top: -100px;
+  }
+  .journey p{
+    background-color: darkblue;
+    font-size: 14px; 
+    padding: 20px; 
+    box-sizing: border-box;
+    margin: 40px 200px 40px 200px; 
+    border: solid 1px black;
+    word-spacing: 3px;
+  }
+  .journey h1, p{
+    color: white; 
+    text-align: center; 
+  }
+  .journey h1 {
+    margin-bottom: -20px; 
+  }
+  .journey a {
+    color: lightblue;
+  }
+  .container {
+    width:80%; 
+    float: center; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: block; 
+  }
+  .howtohelp {
+    background-color: black; 
+    box-sizing: border-box; 
+    text-align: center;
+    height: 220vh; 
+    margin-top: -50px; 
+  }
+  .howtohelp img {
+    display: block;
+    margin-top: -60px; 
+    height: 15vh;
+    float: center;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  .col1 {
+    float: left; 
+    width: 50%;
+  }
+  .col2 {
+    float: right;
+    width: 50%;
+  }
+  .howtohelp p{
+    color:white; 
+    display: block;
+    padding: 10px 25px;
+    margin-left: 60px;
+    margin-right: 60px; 
+    font-size: 18px; 
+  }
+  .howtohelp h2{
+    color:rgba(68, 170, 243, 0.89);
+    font-weight: 8000;
+    font-size: 36px; 
+    display: block;
+    padding: 5px;
+    float: center; 
+    margin-bottom: -15px; 
+  }
+  .howtohelp a {
+    color: lightblue;
+  }
+  b {
+    font-weight: 10000; 
+  }
+  .partners{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 700px; 
+  }
+  figure{
+    width: 280px;
+    margin: 5px 1px;
+    padding: 70px; 
+    box-sizing: border-box;
+  }
+  figure img{
+    width: 100%;
+    border: 1px solid black; 
+    float: center;
+    height: 100%; 
+  }
+  figure figcaption{
+    text-align: center;
+    padding: 20px; 
+    color: white;
+  }
+  .contact {
+    background-image: url(https://st4.depositphotos.com/21121724/24700/v/450/depositphotos_247004292-stock-illustration-rip-paper-page-torn-page.jpg);
+    width: 100%;
+    height: 40vh; 
+    margin-top: -10px;
+  }
+  .contact h1{
+    float: center; 
+    font-weight: bolder;
+    color: black; 
+    display: block; 
+    margin: 8px; 
+    margin-left: 300px; 
+  }
+  #direction {
+    font-size: 18px;
+    color: black;
+    float: left;
+    clear: right;  
+    text-align: left;
+  }
+  .contact img {
+    width: 300px; 
+    height: auto; 
+    float: left; 
+    display: block; 
+    border: 2px solid black;
+    margin: 5px 10px 20px 300px; 
+    flex-wrap: wrap; 
+  }
+  .contact a {
+    color: blue; 
+  }
+  #input{
+    position: absolute; 
+    top: 4650px; 
+    left: 620px; 
+  }
+  #foot {
+    color: black;
+  }
+  
